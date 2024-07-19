@@ -1,0 +1,18 @@
+.custom-arrow {
+    font-size: 2rem;
+    color: hsl(0, 8%, 12%);
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .next-arrow {
+    right: 10px;
+  }
+  
+  .prev-arrow {
+    left: -20px;
+  }
+  

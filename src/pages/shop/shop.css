@@ -1,0 +1,142 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.category-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; 
+  margin-bottom: 10px;
+  background-color: #c9b9b9; 
+  padding: 0x;
+  border-radius: 10px;
+}
+
+.category {
+  margin: 0 15px;
+  text-align: center;
+}
+.categoryRow {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  background-color: #c9b9b9;
+}
+.categoryItem {
+  margin: 0 20px;
+  text-align: center;
+}
+.categoryImage {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 70px;
+  transition: transform 0.3s ease;
+}
+.categoryImage:hover {
+  transform: scale(1.05);
+}
+
+.categoryItem p {
+  margin-top: 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.category img {
+  width: 150px; 
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.category img:hover {
+  transform: scale(1.05); 
+}
+
+.category-name {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.slick-arrow {
+  background: #000;
+  border-radius: 50%;
+  color: #fff;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  z-index: 2;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+
+.products {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  gap: 30px; 
+}
+
+.product-category {
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 0px 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+  border-radius: 15px;
+  width: 200px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white; 
+}
+
+.product img {
+  width: 100%; 
+  height: auto;
+  max-height: 150px; 
+  object-fit: contain; 
+  border-radius: 10px;
+}
+
+.product .description {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.product:hover {
+  transform: scale(1.03); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.addToCartBttn {
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  padding: 8px 12px;
+  border-radius: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.addToCartBttn:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
